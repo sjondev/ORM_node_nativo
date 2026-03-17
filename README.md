@@ -1,6 +1,6 @@
 # ORM_node_nativo
 
-`typescript
+```
 import { pool } from '../database/database';
 import type { PoolClient } from 'pg';
 
@@ -500,4 +500,4 @@ export abstract class BaseModel<T> {
     }
   }
 }
-`
+```
